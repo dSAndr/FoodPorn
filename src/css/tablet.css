@@ -1,0 +1,197 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .header__burger {
+        display: none;
+    }
+
+    .promo {
+        min-height: 256px;
+        background: url("../img/promo/image\ 17@2x.jpg") center center/cover no-repeat;
+        padding: 45px 0;
+    }
+
+    .promo__title {
+        font-size: 40px;
+    }
+
+    .promo__subtitle {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .promo__btn {
+        min-height: 40px;
+        padding: 8px 40px;
+        font-size: 16px;
+    }
+
+    .portfolio {
+        min-height: 340px;
+        padding-top: 24px;
+    }
+    
+    .portfolio__maintitle {
+        font-size: 24px;
+    }
+        
+    .portfolio__secondarytitle {
+        font-size: 16px;
+    }
+        
+    .portfolio__block {
+        margin-top: 17px;
+        min-height: 260px;
+    }
+        
+    .portfolio__editorial {
+        background: url("../img/editorial/Rectangle\ 63@2x.jpg") center center/cover no-repeat;
+    }
+        
+    .portfolio__serving {
+        background: url("../img/serving/Rectangle\ 63@2x.jpg") center center/cover no-repeat;
+    }
+        
+    .portfolio__baking {
+        background: url("../img/baking/Rectangle\ 63@2x.jpg") center center/cover no-repeat;
+    }
+        
+    .portfolio__subtitle {
+        margin: 24px auto;
+        font-size: 18px;
+    }
+        
+    .portfolio__btn {
+        min-height: 38px;
+        margin: 1px auto 0;
+        padding: 5px 11px;
+        font-size: 14px;
+    }
+        
+    .aboutme {
+        margin-top: 32px;
+    }
+        
+    .aboutme__title {
+        font-size: 24px;
+    }
+        
+    .aboutme__block {
+        margin-top: 16px;
+    }
+        
+    .aboutme__pfoto {
+        height: 434px;
+        width: 275px;
+        background: url("../img/aboutme/Rectangle\ 65@2x.jpg") center center/cover no-repeat;
+    }
+        
+    .aboutme__textblock {
+        padding: 24px 38px;
+    }
+        
+    .aboutme__subtitle {
+        font-size: 18px;
+    }
+        
+    .aboutme__text {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    
+    .aboutme__subsubtitle {
+        margin-top: 16px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    
+    .skills {
+        margin-top: 32px;
+    }
+
+    .skills__container {
+        max-width: 432px;
+        width: 100%;
+    }
+    
+    .skills__title {
+        font-size: 24px;
+    }
+    
+    .skills__blocks {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 24px;
+    }
+    
+    .skills__block {
+        min-height: 210px;
+        width: calc(50% - 40px);
+        padding: 24px 0 10px;
+    }
+
+    .skills__img {
+        height: 128px;
+        width: 128px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .skills__backgroundwite {
+        background: url("../img/background/Rectangle\ 66@2x.jpg") center center/cover no-repeat;
+    }
+    
+    .skills__compositional {
+        background: url("../img/compositional/Rectangle\ 66@2x.jpg") center center/cover no-repeat;
+    }
+    
+    .skills__patterns {
+        background: url("../img/patterns/Rectangle\ 66@2x.jpg") center center/cover no-repeat;
+    }
+    
+    .skills__levitation {
+        background: url("../img/levitation/Rectangle\ 66@2x.jpg") center center/cover no-repeat;
+    }
+    
+    .skills__subtitle {
+        margin-top: 8px;
+        font-size: 16px;
+    }
+    
+    .contacts__block {
+        margin-top: 32px;
+        padding: 24px 28px;
+    }
+    
+    .contacts__title {
+        font-size: 24px;
+    }
+    
+    .contacts__subtitle {
+        margin-top: 8px;
+        font-size: 18px;
+    }
+    
+    .contacts__number {
+        font-size: 24px;
+    }
+    
+    .contacts__link {
+        margin-top: 4px;
+        font-size: 24px;
+    }
+    
+    .footer {
+        margin-top: 32px;
+        padding: 13px 40px;
+        background-color: #fff
+    }
+    
+    .footer__title {
+        margin: 8px 0 0;
+    }
+}
+        

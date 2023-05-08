@@ -1,0 +1,419 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header {
+    display: flex;
+    min-height: 60px;
+    background-color: #fff;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.header__btn {
+    display: flex;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+    border: solid 0 #fff;
+    background: rgba(285, 214, 219, 0);
+}
+
+.header__pizza {
+    width: 22px;
+    height: 25px;
+    margin: 0 12px 0 0;
+}
+
+.header__textlogo {
+    text-transform: uppercase;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__link {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.header__burger {
+    display: none;
+}
+
+.promo {
+    min-height: 498px;
+    text-align: center;
+    background: url("../img/promo/image\ 17.jpg") center center/cover no-repeat;
+    padding: 112px 0;
+}
+
+.promo__title {
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    margin: 0;
+    color: #fff;
+}
+
+.promo__subtitle {
+    margin-top: 25px;
+    font-size: 48px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.promo__btn {
+    display: inline-block;
+    margin: 54px auto 0;
+    padding: 14px 40px;
+    border: solid 1px #fff;
+    background: rgba(285, 214, 219, 0.1);
+
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.portfolio {
+    min-height: 670px;
+    padding-top: 52px;
+    background-color: #fff;
+}
+
+.portfolio__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.portfolio__maintitle {
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.portfolio__secondarytitle {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.portfolio__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__block {
+    width: calc(33% - 10px);
+    margin-top: 24px;
+    min-height: 550px;
+}
+
+.portfolio__editorial {
+    background: url("../img/editorial/Rectangle\ 63.jpg") center center/cover no-repeat;
+}
+
+.portfolio__serving {
+    background: url("../img/serving/Rectangle\ 63.jpg") center center/cover no-repeat;
+}
+
+.portfolio__baking {
+    background: url("../img/baking/Rectangle\ 63.jpg") center center/cover no-repeat;
+}
+
+.portfolio__subtitle {
+    display: block;
+    margin: 57px auto;
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.portfolio__btn {
+    display: block;
+    margin: 16px auto 0;
+    padding: 14px 40px;
+    border: solid 1px #fff;
+    background: rgba(285, 214, 219, 0);
+
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.aboutme {
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.aboutme__title {
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.aboutme__block {
+    display: flex;
+    margin-top: 24px;
+}
+
+.aboutme__pfoto {
+    width: 40.7%;
+    height: auto;
+    background: url("../img/aboutme/Rectangle\ 65.jpg") center center/cover no-repeat;
+}
+
+.aboutme__textblock {
+    width: 69.3%;
+    padding: 56px 84px 56px 84px;
+    background-color: #f1f3f6;
+}
+
+.aboutme__subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.aboutme__text {
+    margin: 8px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.aboutme__subsubtitle {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.skills {
+    margin-top: 40px;
+}
+
+.skills__title {
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.skills__blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.skills__block {
+    min-height: 377px;
+    width: calc(25% - 10px);
+    padding: 41px 28px 36px;
+}
+
+.skills__img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.skills__backgroundwite {
+    background: url("../img/background/Rectangle\ 66.jpg") center center/cover no-repeat;
+}
+
+.skills__compositional {
+    background: url("../img/compositional/Rectangle\ 66.jpg") center center/cover no-repeat;
+}
+
+.skills__patterns {
+    background: url("../img/patterns/Rectangle\ 66.jpg") center center/cover no-repeat;
+}
+
+.skills__levitation {
+    background: url("../img/levitation/Rectangle\ 66.jpg") center center/cover no-repeat;
+}
+
+.skills__subtitle {
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.contacts__block {
+    margin-top: 40px;
+    padding: 32px 40px;
+    background-color: #f1f3f6;
+}
+
+.contacts__title {
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.contacts__subtitle {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.contacts__number {
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #002d71;
+}
+
+.contacts__link {
+    display: block;
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #002d71;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 45px 50px;
+    background-color: #fff
+}
+
+.footer__block {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__logo {
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.footer__title {
+    margin: 24px 0 0;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
